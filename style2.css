@@ -1,0 +1,131 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	font-size: 35px;
+	color: white;
+	margin-top: 0px;
+	font-family: tahoma;
+	float: left;
+	margin-left: 10px;
+}
+
+h1 a 
+{
+	text-decoration: none;
+	color: white;
+	font-family: tahoma;
+}
+
+#menu
+{
+	margin-left: 320px;
+	margin-top: 20px;
+}
+#menu ul li
+{
+	list-style:none;
+	float: left;
+	margin-left: 5px;
+	height: 35px;
+	line-height: 35px;
+}
+
+#home
+{
+	margin-top: 0px;
+	margin-left: 100px;
+	font-size: 25px;
+	float: left;
+	width: 130px;
+}
+
+#home a
+{
+	text-decoration: none;
+}
+ 
+#menu ul li a
+{
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: black;
+	width: 270px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 25px;
+}
+
+#menu ul li a:hover
+{
+	background-color: red;
+	color: white;	
+	border-radius: 1px;
+}
+
+#menu ul ul
+{
+	list-style: none;
+    display: none;   
+    margin-top: -35px;
+}
+
+#menu ul li a
+{
+	text-decoration: none;
+
+}
+
+#menu ul li:hover > ul
+{
+	display: block;
+}
+
+#menu ul ul li
+{
+  float: none;
+  width: 0px;
+}
+
+#menu ul ul a:hover
+{
+	background: red;
+}
+
+#para
+{
+	font-family: tahoma;
+	float: left;
+	position: absolute;
+	margin: 200px 700px 0px 10px;
+}
+
+ #para p
+ {
+ 	font-fami ly: tahoma;
+ 	color: white;
+ 	size: 15px;
+ }
+
+ #ad
+ {
+ 	position: absolute;
+ 	border: 2px solid gray;
+ 	float: left;
+ 	margin-top: 170px;
+ 	height: 300px;
+ 	width: 300px;
+ 	margin-left: 1000px;
+ 	border-left: 2px solid blue;
+ }
+
+ #ad h6
+ {
+ 	color: white;
+ 	font-size: 15px;
+ }
